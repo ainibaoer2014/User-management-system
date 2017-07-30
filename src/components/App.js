@@ -10,7 +10,7 @@ export default (
                 <div className="container-fluid">
                     <div className="navbar-header">
                         <div className="navbar-brand">
-                           珠峰学习用户管理系统
+                           用户管理系统
                         </div>
                     </div>
                     <ul className="nav navbar-nav">
@@ -34,25 +34,6 @@ export default (
         </div>
     </Router>
 )
-
-
-/*import React from 'react';
-import {
-    HashRouter as Router,//容器
-    Route//每条路由
-} from 'react-router-dom';
-import Home from './Home';
-import User from './User';
-import Profile from './Profile';
-export default (
-    <Router>
-        <div>
-            <Route path="/home" component={Home}/>
-            <Route path="/user" component={User}/>
-            <Route path="/profile" component={Profile}/>
-        </div>
-    </Router>
-)*/
 
 
 
