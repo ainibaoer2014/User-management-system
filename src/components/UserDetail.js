@@ -11,7 +11,7 @@ export default class UserDetail extends Component{
         //将读取出来的数据字符串 解析为对象
         let users=userStr ? JSON.parse(userStr) : [];
         //从users中查找对应id的那个对象
-        let user=users.find(user=>user.id==id);
+        let user=users.find(user=>user.id===id);
         return (
             <table className="table-bordered">
                 <thead>
